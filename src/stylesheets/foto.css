@@ -1,0 +1,21 @@
+#foto {
+
+  position: absolute;
+  z-index: 1;
+  top: 110%;
+  left: 10%;
+  height: 23em;
+  width: 50em;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 10px;
+
+}
+
+#slideshow {
+
+  width: 100%;
+  height: 100%;
+  border-radius: 10px;
+
+}

@@ -1,0 +1,44 @@
+.footer {
+
+  position: absolute;
+  top: 320%;
+  width: 99%;
+  height: 20%;
+  background-color: rgba(170, 170, 170, 0.5);
+
+}
+
+.footer div{
+
+  position: relative;
+  padding: 12px;
+  margin: auto;
+  width: 10%;
+  height: 30%;
+}
+
+.contatti {
+
+  display: flex;
+  margin: auto;
+  top: 20%;
+  height: 15%;
+  width: 30%;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
+
+#mobile{
+
+  position: relative;
+  display: none;
+
+}
+
+#tripadvisor {
+
+  position: relative;
+  transform: scale(0.7);
+
+}

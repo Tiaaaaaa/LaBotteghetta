@@ -1,0 +1,35 @@
+
+#specialità {
+
+  position: absolute;
+  top: 170%;
+  width: 30em;
+  border-radius: 10px;
+  margin: 1%;
+  padding: 10px;
+  background-color: rgba(150, 150, 150, 0.7);
+  font-family: "Roboto Condensed", Arial, "Arial Unicode MS", Helvetica, sans-serif;
+  font-size: 1.2em;
+
+}
+
+#rumors {
+
+  position: absolute;
+  top: 200%;
+  left: 60%;
+  width: 30%;
+  padding: 10px;
+  border-radius: 10px;
+  background-color: rgba(150, 150, 150, 0.7);
+  font-family: "Roboto Condensed", Arial, "Arial Unicode MS", Helvetica, sans-serif;
+
+}
+
+#sites {
+
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+
+}
