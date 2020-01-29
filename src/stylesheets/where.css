@@ -1,19 +1,36 @@
 .where {
 
   position: absolute;
-  top: 200%;
+  top: 90em;
 
 }
 
 .here {
 
   position: relative;
-  width: 14%;
-  margin-top: 0%;
-  margin-left: 27%;
+  width: 7em;
+  top: 10em;
+  left: 60em;
   background-color: rgba(165, 158, 145, 0.7);
   padding: 10px;
   border-radius: 20px;
+
+}
+
+.arrow {
+
+  height: 0;
+  width: 0;
+  border-top: 8em solid red;
+  border-left: 3em solid transparent;
+  border-right: 3em solid transparent;
+  z-index: 3;
+
+}
+
+.arrow::before {
+
+  
 
 }
 
@@ -21,7 +38,8 @@
 
   position: relative;
   z-index: 1;
-  margin-top: 10%;
+  left: 5em;
+  margin-top: 5em;
   height: 20em;
   width: 50em;
   border-radius: 20px;
@@ -41,9 +59,9 @@
 
   position: relative;
   z-index: -1;
-  margin-top: -10%;
-  margin-left: 75%;
-  height: 55vh;
-  width: 55vw;
+  top: -5em;
+  left: 43em;
+  height: 24em;
+  width: 50em;
 
 }

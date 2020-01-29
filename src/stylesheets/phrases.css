@@ -2,7 +2,7 @@
 #specialità {
 
   position: absolute;
-  top: 170%;
+  top: 65em;
   width: 30em;
   border-radius: 10px;
   margin: 1%;
@@ -16,9 +16,9 @@
 #rumors {
 
   position: absolute;
-  top: 200%;
-  left: 60%;
-  width: 30%;
+  top: 125em;
+  left: 5em;
+  width: 30em;
   padding: 10px;
   border-radius: 10px;
   background-color: rgba(150, 150, 150, 0.7);

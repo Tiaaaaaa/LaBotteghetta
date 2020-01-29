@@ -1,9 +1,9 @@
 #foto {
 
   position: absolute;
-  z-index: 1;
-  top: 110%;
-  left: 10%;
+  z-index: 2;
+  top: 50em;
+  left: 5em;
   height: 23em;
   width: 50em;
   border-radius: 10px;

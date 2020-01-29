@@ -1,6 +1,5 @@
 function init() {
 
-  document.getElementById("logo").style.top = "20vh";
   slideshow();
 
 }
@@ -12,7 +11,6 @@ if(md.mobile() != null) {
   document.getElementById('mobile').style.display = "block";
 
 }
-
 
 function show(id) {
 
