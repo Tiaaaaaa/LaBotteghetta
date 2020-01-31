@@ -10,7 +10,7 @@
   position: relative;
   width: 7em;
   top: 10em;
-  left: 60em;
+  left: 70em;
   background-color: rgba(165, 158, 145, 0.7);
   padding: 10px;
   border-radius: 20px;
@@ -19,27 +19,53 @@
 
 .arrow {
 
-  height: 0;
+  position: absolute;
   width: 0;
-  border-top: 8em solid red;
+  border-top: 6em solid red;
   border-left: 3em solid transparent;
   border-right: 3em solid transparent;
   z-index: 3;
 
 }
 
-.arrow::before {
+.arrow:after {
 
-  
+  content: "";
+  position: absolute;
+  border-radius: 1em;
+  left: -1.5em;
+  top: -11em;
+  width: 3em;
+  height: 4em;
+  background: red;
+
+}
+
+#vertical {
+
+  position: relative;
+  top: 13em;
+  left: 71.2em;
+  animation: moveVertical 1s infinite;
+
+}
+
+#horizontal {
+
+  position: relative;
+  top: -8.3em;
+  left: 58em;
+  transform: rotate(90deg);
+  animation: moveHorizontal 1s infinite;
 
 }
 
 #map {
 
-  position: relative;
+  position: absolute;
   z-index: 1;
   left: 5em;
-  margin-top: 5em;
+  top: 5em;
   height: 20em;
   width: 50em;
   border-radius: 20px;
@@ -57,9 +83,9 @@
 
 #place {
 
-  position: relative;
+  position: absolute;
   z-index: -1;
-  top: -5em;
+  top: 30em;
   left: 43em;
   height: 24em;
   width: 50em;

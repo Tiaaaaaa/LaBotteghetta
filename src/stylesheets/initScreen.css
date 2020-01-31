@@ -17,6 +17,42 @@ body {
 
 }
 
+.bgLogo {
+
+  position: absolute;
+  z-index: -1;
+  top: -0.5em;
+  left: -0.4em;
+  width: 51em;
+  height: 25em;
+  animation: animateBorder 1s infinite;
+  transition: animation 1s;
+
+}
+
+.gradient-border {
+
+  --borderWidth: 1em;
+  background: #1D1F20;
+  position: relative;
+  border-radius: var(--borderWidth);
+
+}
+
+.gradient-border:after {
+  content: '';
+  position: absolute;
+  top: calc(-1 * var(--borderWidth));
+  left: calc(-1 * var(--borderWidth));
+  height: calc(100% + var(--borderWidth) * 2);
+  width: calc(100% + var(--borderWidth) * 2);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  z-index: -2;
+  animation: animatedgradient 3s ease alternate infinite;
+  background-size: 300% 300%;
+}
+
+
 #logo {
 
   z-index: -1;
@@ -26,19 +62,32 @@ body {
   transition: 1.5s ease;
   width: 50em;
   height: 24em;
-  border: 2px solid black;
   animation: down 1.5s;
-/*  animation: cartoon 1s infinite; */
 
 }
 
-@keyframes cartoon {
 
-  0% { padding: 0px; }
-  25% { padding: 10px; }
-  50% { padding: 20px; }
-  75% { padding: 10px; }
-  100% { padding: 0px; }
+@keyframes animatedgradient {
+
+	0% { background-position: 0% 50%; }
+
+	50% { background-position: 100% 50%; }
+
+	100% { background-position: 0% 50%; }
+
+}
+
+@keyframes moveVertical {
+
+  from { top: 13em; }
+  to { top: 14em; }
+
+}
+
+@keyframes moveHorizontal {
+
+  from { left: 58em; }
+  to { left: 57em; }
 
 }
 
