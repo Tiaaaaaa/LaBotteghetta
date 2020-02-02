@@ -1,14 +1,12 @@
 #foto {
 
-  position: absolute;
+  position: relative;
   z-index: 2;
   top: 50em;
-  left: 5em;
+  right: 35em;
   height: 23em;
-  width: 50em;
+  width: 100em;
   border-radius: 10px;
-  margin: 1%;
-  padding: 10px;
 
 }
 

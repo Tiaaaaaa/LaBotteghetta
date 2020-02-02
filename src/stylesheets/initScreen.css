@@ -5,6 +5,8 @@ body {
 }
 
 .container{
+  
+  display: flex;
   margin: auto;
 
 }
@@ -12,21 +14,8 @@ body {
 
 .logo {
 
-  height: 48em;
+  height: 98vh;
   width: 100%;
-
-}
-
-.bgLogo {
-
-  position: absolute;
-  z-index: -1;
-  top: -0.5em;
-  left: -0.4em;
-  width: 51em;
-  height: 25em;
-  animation: animateBorder 1s infinite;
-  transition: animation 1s;
 
 }
 
@@ -46,7 +35,7 @@ body {
   left: calc(-1 * var(--borderWidth));
   height: calc(100% + var(--borderWidth) * 2);
   width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e7b, #a166ab, #5073b8, #1098ad, #07b39b, #6fba82);
+  background: linear-gradient(60deg, #f79533, #f37055, #ef4e00, #a16600, #b87350, #ad9810);
   z-index: -2;
   animation: animatedgradient 3s ease alternate infinite;
   background-size: 300% 300%;
@@ -56,7 +45,7 @@ body {
 #logo {
 
   z-index: -1;
-  position: absolute;
+  position: relative;
   left: 20em;
   top: 10em;
   transition: 1.5s ease;

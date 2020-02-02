@@ -14,7 +14,7 @@ if(md.mobile() != null) {
 
 function show(id) {
 
-  for (var i = 0; i <= 100; i++) {
+  for (let i = 0; i <= 100; i++) {
 
     setTimeout( function() {
 
@@ -28,7 +28,7 @@ function show(id) {
 function hide(id) {
 
 
-  for (var i = 100; i >= 0; i++) {
+  for (let i = 100; i >= 0; i++) {
 
     setTimeout( function() {
 
@@ -40,7 +40,7 @@ function hide(id) {
 
 }
 
-var slideIndex = 1;
+let slideIndex = 1;
 function slideshow() { setInterval(function() {
 
   slideIndex += 1;
@@ -48,9 +48,10 @@ function slideshow() { setInterval(function() {
   if (slideIndex === 8) { slideIndex = 1; }
   if (slideIndex === 0) { slideIndex = 7; }
 
-  var container = document.getElementById('foto');
-  var content = '<img src="../images/' + slideIndex + '.jpg" id="slideshow">'
+  let container = document.getElementById('foto');
+  let content = '<img src="../images/' + slideIndex + '.jpg" id="slideshow">'
 
   container.innerHTML = content;
+
 
 }, 3000); }
