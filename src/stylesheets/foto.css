@@ -3,9 +3,9 @@
   position: relative;
   z-index: 2;
   top: 50em;
-  right: 35em;
-  height: 23em;
-  width: 100em;
+  right: 45%;
+  height: 50vh;
+  width: 100%;
   border-radius: 10px;
 
 }
