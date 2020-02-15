@@ -2,10 +2,8 @@
 
   position: relative;
   z-index: 2;
-  top: 50em;
-  right: 45%;
   height: 50vh;
-  width: 100%;
+  width: 90%;
   border-radius: 10px;
 
 }

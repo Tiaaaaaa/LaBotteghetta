@@ -1,29 +1,21 @@
 .footer {
 
-  position: absolute;
-  top: 150em;
-  width: 93em;
+  position: relative;
+  top: 15em;
+  width: 98vw;
   height: 10em;
   background-color: rgba(200, 200, 200, 1);
 
 }
 
-.footer div{
-
-  position: relative;
-  padding: 12px;
-  margin: auto;
-  width: 10%;
-  height: 30%;
-}
-
 .contatti {
 
+  position: relative;
   display: flex;
   margin: auto;
-  top: 20%;
+  top: 4em;
   height: 15%;
-  width: 30%;
+  width: 12%;
   align-items: center;
   justify-content: space-evenly;
 
@@ -33,12 +25,27 @@
 
   position: relative;
   display: none;
-
 }
+
 
 #tripadvisor {
 
   position: relative;
+  right: 3%;
   transform: scale(0.7);
+
+}
+
+#facebook {
+
+
+
+}
+
+#scrittone {
+
+  position: absolute;
+  top: 1em;
+  left: 1em;
 
 }

@@ -1,94 +1,42 @@
 body {
 
-  /*background-image: url("../images/horizontalWood.jpg");*/
+  background-image: url("../images/horizontalWood.jpg");
+  font-family: "Roboto Condensed", Arial, "Arial Unicode MS", Helvetica, sans-serif;
   color: #000000;
+
 }
 
 .container{
 
   display: flex;
-  margin: auto;
+  justify-content: center;
+  align-items: center;
 
 }
 
+.left {
 
-.logo {
-
-  height: 98vh;
-  width: 100%;
-
-}
-
-.gradient-border {
-
-  --borderWidth: 1em;
-  background: #1D1F20;
   position: relative;
-  border-radius: var(--borderWidth);
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  height: 200vh;
+/*  background-color: aliceblue; */
 
 }
 
-.gradient-border:after {
-  content: '';
-  position: absolute;
-  top: calc(-1 * var(--borderWidth));
-  left: calc(-1 * var(--borderWidth));
-  height: calc(100% + var(--borderWidth) * 2);
-  width: calc(100% + var(--borderWidth) * 2);
-  background: linear-gradient(60deg, #f79533, #f37055, #ef4e00, #a16600, #b87350, #ad9810);
-  z-index: -2;
-  animation: animatedgradient 3s ease alternate infinite;
-  background-size: 300% 300%;
-}
+.right {
 
-
-#logo {
-
-  z-index: -1;
   position: relative;
-  left: 20em;
-  top: 10em;
-  transition: 1.5s ease;
-  width: 50em;
-  height: 24em;
-  animation: down 1.5s;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  height: 200vh;
+  /*  background-color: aliceblue; */
 
-}
-
-
-@keyframes animatedgradient {
-
-	0% { background-position: 0% 50%; }
-
-	50% { background-position: 100% 50%; }
-
-	100% { background-position: 0% 50%; }
-
-}
-
-@keyframes moveVertical {
-
-  from { top: 13em; }
-  to { top: 14em; }
-
-}
-
-@keyframes moveHorizontal {
-
-  from { left: 58em; }
-  to { left: 57em; }
-
-}
-
-@keyframes appear {
-
-  from {opacity: }
-
-}
-
-@keyframes down {
-
-  from {top: -400px;}
-  to {top: 10em;}
 
 }

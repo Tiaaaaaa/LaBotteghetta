@@ -12,6 +12,8 @@ if(md.mobile() != null) {
 
 }
 
+console.log(md.mobile());
+
 function show(id) {
 
   for (let i = 0; i <= 100; i++) {

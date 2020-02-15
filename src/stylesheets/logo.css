@@ -1,0 +1,27 @@
+
+.logo {
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 98vh;
+  width: 100%;
+
+}
+
+#logo {
+
+  z-index: -1;
+  position: relative;
+  width: 50em;
+  height: 24em;
+  animation: down 1.5s;
+
+}
+
+@keyframes down {
+
+  from {top: -400px; }
+  to {top: 0; }
+
+}
