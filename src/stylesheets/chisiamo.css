@@ -1,14 +1,14 @@
 .chisiamo{
 
   position: relative;
-  height: 35vh;
+  height: 46vh;
   width: 85%;
   border-radius: 10px;
-  padding: 3em;
+  padding: 3vh;
   background-color: #333333;
   text-align: center;
   color: #DDD;
-  font-size: 100%;
+  font-size: 2vh;
   font-weight: lighter;
 
 }
@@ -30,7 +30,7 @@
 .chisiamo button {
 
   position: relative;
-  top: 5em;
+  top: 10vh;
   width: 36%;
   height: 20%;
   border: 2px solid #DDD;
@@ -38,11 +38,14 @@
   background-color: #333333;
   transition: 0.5s linear;
   color: #DDD;
+  font-size: 2vh;
 
 }
 
 .chisiamo button:hover {
 
   background-color: #DDD;
+  top: 8vh;
+  font-size: 2.2vh;
 
 }
