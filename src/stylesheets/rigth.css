@@ -1,0 +1,52 @@
+.right {
+
+  position: relative;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  align-items: center;
+  width: 50vw;
+  height: 175vh;
+  /*  background-color: aliceblue; */
+
+}
+
+/* orari */
+.come {
+
+  position: relative;
+  height: 44vh;
+  width: 87%;
+  border-radius: 10px;
+  background-color: #333333;
+  color: #DDD;
+  padding: 10px;
+  border-radius: 20px;
+  font-size: 2vh;
+  text-align: center;
+  border: 2vh #333 solid;
+
+}
+
+.timetable {
+
+  position: relative;
+  width: 50%;
+  margin: auto;
+  font-size: 3vh;
+  text-align: justify;
+
+}
+
+.timetable td{
+  white-space: pre;
+}
+
+/*modello della zona*/
+#place {
+
+  position: relative;
+  height: 50vh;
+  width: 40vw;
+
+}
