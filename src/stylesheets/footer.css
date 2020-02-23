@@ -24,7 +24,7 @@
 #mobile{
 
   position: relative;
-  display: none;
+
 }
 
 
@@ -45,7 +45,8 @@
 #scrittone {
 
   position: absolute;
-  top: 1em;
-  left: 1em;
+  
+  top: 0.4vh;
+  left: 0.8vw;
 
 }

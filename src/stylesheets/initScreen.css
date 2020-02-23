@@ -14,29 +14,16 @@ body {
 
 }
 
-.left {
+/* frase ramdom */
+#specialità {
 
   position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 50vw;
-  height: 200vh;
-/*  background-color: aliceblue; */
-
-}
-
-.right {
-
-  position: relative;
-  display: flex;
-  flex-direction: column;
-  justify-content: space-around;
-  align-items: center;
-  width: 50vw;
-  height: 200vh;
-  /*  background-color: aliceblue; */
-
+  width: 97vw;
+  border-radius: 10px;
+  margin: auto;
+  padding: 10px;
+  background-color: rgba(150, 150, 150, 0.7);
+  font-size: 1.2em;
+  text-align: center;
 
 }

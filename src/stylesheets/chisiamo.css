@@ -10,6 +10,8 @@
   color: #DDD;
   font-size: 2vh;
   font-weight: lighter;
+  border: 2vh #333 solid;
+  
 
 }
 
@@ -22,8 +24,8 @@
 #paragraph {
 
   position: relative;
-  top: 2%;
-  left: 2%;
+  top: 2vh;
+  left: 2vw;
 
 }
 
@@ -46,6 +48,6 @@
 
   background-color: #DDD;
   top: 8vh;
-  font-size: 2.2vh;
+  font-size: 2.5vh;
 
 }

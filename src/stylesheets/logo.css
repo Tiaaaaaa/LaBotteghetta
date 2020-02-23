@@ -13,8 +13,8 @@
 
   z-index: -1;
   position: relative;
-  width: 50em;
-  height: 24em;
+  width: 50vw;
+  height: 50vh;
   animation: down 1.5s;
 
 }

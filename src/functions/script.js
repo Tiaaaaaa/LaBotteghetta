@@ -4,44 +4,6 @@ function init() {
 
 }
 
-let md = new MobileDetect(navigator.userAgent)
-
-if(md.mobile() != null) {
-
-  document.getElementById('mobile').style.display = "block";
-
-}
-
-console.log(md.mobile());
-
-function show(id) {
-
-  for (let i = 0; i <= 100; i++) {
-
-    setTimeout( function() {
-
-      document.getElementById(id).style.opacity = i;
-
-    },2000);
-
-  }
-}
-
-function hide(id) {
-
-
-  for (let i = 100; i >= 0; i++) {
-
-    setTimeout( function() {
-
-      document.getElementById(id).style.opacity = i;
-
-    },2000);
-
-  }
-
-}
-
 let slideIndex = 1;
 function slideshow() { setInterval(function() {
 
